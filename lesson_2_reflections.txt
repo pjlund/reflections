@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing repository prepares a .git file which will contain your commit history.
