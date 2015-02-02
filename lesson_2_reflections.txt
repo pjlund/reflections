@@ -15,3 +15,6 @@ The diagrams give you a pictorial representation of the relationships amongst yo
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Code is combined from the two diverged code bases into one.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves time but may operate in unintuitive ways. When in doubt, git asks the user to manually merge files to avoid anything really surprising.
