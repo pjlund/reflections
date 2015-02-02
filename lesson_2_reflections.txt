@@ -3,3 +3,15 @@ Initializing repository prepares a .git file which will contain your commit hist
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area contains all of the changes in the working directory that the user would like to put in a single commit to the repository. It allows the user an extra degree of control when managing commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Even if you have made many changes in the working directory, you can add one set of changes reflecting a single logical change at a time to the staging area and then commit these changes by themselves.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches may be useful when working on a project which has diverged into multiple projects or when working on multiple changes in parallel.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams give you a pictorial representation of the relationships amongst your branches and commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Code is combined from the two diverged code bases into one.
